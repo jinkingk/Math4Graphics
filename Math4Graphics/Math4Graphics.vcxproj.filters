@@ -24,12 +24,18 @@
     <ClInclude Include="EulerAngles.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="Quaternion.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="MathUtil.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="EulerAngles.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Quaternion.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
