@@ -33,7 +33,7 @@ public:
 	Quaternion operator * (const Quaternion &a) const;
 
 	//赋值乘法
-	Quaternion operator *= (const Quaternion &a);
+	Quaternion& operator *= (const Quaternion &a);
 
 	//正则化
 	void normalize();
