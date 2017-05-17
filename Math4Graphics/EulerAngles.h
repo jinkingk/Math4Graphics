@@ -42,5 +42,5 @@ public:
 	void fromRotationMatrix(const RotationMatrix &m);
 };
 //全局的“单位”欧拉角
-extern EulerAngles kEulerAnglesIdentity;
+extern const EulerAngles kEulerAnglesIdentity;
 ////////////////////////////////////////////////////////////////

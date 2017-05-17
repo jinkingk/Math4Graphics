@@ -14,7 +14,7 @@ extern float safeAcos(float x)
 {
 	if (x < -1.0)
 		return kPi;
-	if (x > 1 / 0)
+	if (x > 1.0)
 		return 0;
 	return acos(x);
 }

@@ -72,8 +72,8 @@ Vector3 operator*(const Vector3&p, const Matrix4x3 &m);
 Matrix4x3 operator*(const Matrix4x3&a, const Matrix4x3&b);
 
 //运算符*=
-Vector3 operator*=(const Vector3&p, const Matrix4x3 &m);
-Matrix4x3 operator*=(const Matrix4x3&a, const Matrix4x3&m);
+Vector3 &operator*=(Vector3&p, const Matrix4x3 &m);
+Matrix4x3 &operator*=(Matrix4x3&a, const Matrix4x3&m);
 
 //计算3x3部分的行列式值
 float determinant(const Matrix4x3&m);
