@@ -33,6 +33,12 @@
     <ClInclude Include="Matrix4x3.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="AABB3.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="EditTriMesh.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="MathUtil.cpp">
@@ -48,6 +54,9 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="Matrix4x3.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AABB3.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
